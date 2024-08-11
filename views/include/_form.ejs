@@ -1,0 +1,22 @@
+ <!-- form handling -->
+ <form action="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="name" class="text-light">Item_Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" placeholder="Enter Item">
+        </div>
+        <div class="form-group">
+            <label for="Quantity" class="text-light">Quantity</label>
+            <input type="number" name="quantity" value="" placeholder="Enter Quantity">
+        </div>
+        <div class="form-group">
+            <label for="Price" class="text-light">Price</label>
+            <input type="number" name="price" value="" placeholder="Enter Price">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
